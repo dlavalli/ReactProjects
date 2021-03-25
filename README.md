@@ -47,6 +47,10 @@
 <p>When using React, it's recommended that we validate any props we send to components since JavaScript's dynamic type system may lead to situations where variables are undefined or have an incorrect type. Our code will work without us having to validate the props, but to fix this error we have to install the prop-types package, which used to be a feature of React but was later deprecated.</p>
 
 <br>
-<h3><u>MovieList Project</u></h3>	
+<h2><u>MovieList Project</u></h2>	
 <p>A movie list application in React that retrieves data from a local JSON file and runs in the browser with webpack and Babel. Styling will be done using Bootstrap. The application that you'll build will return a list of the highest-grossing movies as of 2019, along with some more details and a poster for every movie.</p>
 <p>The official documentation for React doesn't state any preferred approach regarding how to structure our React project. Although two common approaches are popular within the community: either structuring your files by feature or route or structuring them by file type. The movie list application will use a hybrid approach, where files are structured by file type first and by feature second. In practice, this means that there will be two types of components: top-level components, which are called containers, and low-level components, which relate to these top-level components.</p>
+
+<br>
+<h2><u>React Essentials Project</u></h2>
+<p>A project displaying the essential basic functionality from react</p>
