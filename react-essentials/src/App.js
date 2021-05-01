@@ -50,6 +50,7 @@ function App() {
 function App() {
   return (
     // So these routes are going to tell the router, which component to render whenever the location changes
+    // refer to https://dev.to/mconner89/react-router-52pk for more info on Route/Outlet
     <div>
       <Routes>
         <Route path="/" element={<Home />}/>
